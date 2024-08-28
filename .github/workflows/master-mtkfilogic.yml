@@ -16,9 +16,9 @@ permissions: write-all
 on:
   repository_dispatch:
   workflow_dispatch:
-  schedule:
-   - cron: 0 22 * * 6
-   #   分,时,日,月,星期。每周 日 22时执行一次 (UTC时间)
+#  schedule:
+#   - cron: 0 22 * * 6
+#   #   分,时,日,月,星期。每周 日 22时执行一次 (UTC时间)
   
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
