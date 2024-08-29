@@ -36,10 +36,6 @@ git clone https://github.com/sbwml/v2ray-geodata
 #lucky
 git clone -b main --depth 1 https://github.com/sirpdboy/luci-app-lucky.git
 
-# 修改分区大小
-sed -i "/CONFIG_TARGET_KERNEL_PARTSIZE/d" .config
-echo "CONFIG_TARGET_KERNEL_PARTSIZE=90" >> .config
-sed -i "/CONFIG_TARGET_ROOTFS_PARTSIZE/d" .config
-echo "CONFIG_TARGET_ROOTFS_PARTSIZE=2048" >> .config
+
 
 popd
