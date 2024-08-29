@@ -37,7 +37,4 @@ git clone https://github.com/sbwml/v2ray-geodata
 git clone -b main --depth 1 https://github.com/sirpdboy/luci-app-lucky.git
 
 
-
-
-
 popd
